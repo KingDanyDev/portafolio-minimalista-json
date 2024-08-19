@@ -17,9 +17,7 @@ import { projects } from "@/cv.json"
                             <a href={url} title={`Ver el proyecto ${name}`}>
                                {name}
                             </a>
-                            {
-                                isActive && <span>&bull;</span>
-                            }
+                           
                         </h3>
                             <p>{description}</p>
                         </header>
@@ -44,7 +42,8 @@ import { projects } from "@/cv.json"
 <style>
     ul{
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) /* Responsive para que cada columna ocupe 200px si no la ocupa que entoces quita la coumna y resparte el espacio*/
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive para que cada columna ocupe 200px si no la ocupa que entoces quita la coumna y resparte el espacio*/
+         gap: 16px;
         
     }
 
@@ -81,9 +80,7 @@ import { projects } from "@/cv.json"
         margin-bottom: 4px;
     }
 
-    article h3 span{
-        color:#00ff0d;
-    }
+   
 
     footer{
         display: flex;
