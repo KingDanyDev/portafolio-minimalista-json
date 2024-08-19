@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "Daniel Berrio",
-    "label": "Analista y Desarrollador de software, +2 años de experiencia",
+    "name": "Daniel Berrio Barrios",
+    "label": "Analista y Desarrollador de Software, 1+ año de experiencia.",
     "image": "/me2.jpg",
     "email": "berriobarriosdaniel@gmail.com",
     "phone": "+57 3022521320",
     "url": "https://midu.dev",
-    "summary": "Tecnólogo en Análisis y desarrollo de Software,  +2 años de experiencia en proyectos educativos y personales. Conocimientos en Desarrollo web, Data Analytics y Business Intelligence.",
+    "summary": "Tecnólogo en Análisis y desarrollo de Software,  +1 año de experiencia en proyectos profesionales, educativos y personales. Conocimientos en Desarrollo web, Data Analytics y Business Intelligence.",
     "location": {
       "address": "",
       "postalCode": "08820",
@@ -53,12 +53,12 @@
   ],
   "education": [
     {
-      "institution": "Universitat Oberta de Catalunya",
+      "institution": "Servicio Nacional de Aprendizaje (SENA)",
       "url": "https://www.uoc.edu/portal/es/index.html",
-      "area": "Ingeniero de Software",
+      "area": "Tecnólogo Análisis y Desarrollo de Software",
       "studyType": "Bachelor",
-      "startDate": "2003-01-01",
-      "endDate": "2009-01-01",
+      "startDate": "2022-03-06",
+      "endDate": "2024-06-01",
       "score": "4.0",
       "courses": ["DB1101 - Basic SQL"]
     }
@@ -73,11 +73,24 @@
   ],
   "certificates": [
     {
-      "name": "Certificate",
-      "date": "2021-11-07",
-      "issuer": "Company",
+      "name": "Diseño y Desarrollo de Sistemas de Información",
+      "date": "2023",
+      "issuer": "Servicio Nacional de Aprendizaje (SENA)",
+      "url": "https://certificate.com"
+    },
+    {
+      "name": "Desarrollo de Aplicaciones Web con PHP",
+      "date": "2023",
+      "issuer": "Servicio Nacional de Aprendizaje (SENA)",
+      "url": "https://certificate.com"
+    },
+    {
+      "name": "Iniciación a la Inteligencia Artificial",
+      "date": "2023",
+      "issuer": "Servicio Nacional de Aprendizaje (SENA)",
       "url": "https://certificate.com"
     }
+
   ],
   "publications": [
     {
@@ -169,16 +182,27 @@
       "name": "Python",
       "level": "Avanzado",
       "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+    },
+    {
+      "name": "Power Apps",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+    },
+    {
+      "name": "VueJS",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
     }
+    
   ],
   "languages": [
     {
-      "language": "Spanish",
-      "fluency": "Native speaker"
+      "language": "Español",
+      "fluency": "Idioma Nativo"
     },
     {
-      "language": "English",
-      "fluency": "Advanced"
+      "language": "Inglés",
+      "fluency": "B1"
     }
   ],
   "interests": [
@@ -195,51 +219,30 @@
   ],
   "projects": [
     {
-      "name": "mars.codes",
+      "name": "Facturación con PHP",
       "isActive": true,
-      "description": "Historia interactiva con retos de programación para viajar a Marte",
-      "highlights": ["Elige tu propia aventura", "En desarrollo"],
-      "url": "https://mars.codes"
+      "description": "Software de facturación hecho con PHP, MySQL y JavaScript, para la gestión y optimización de ventas, inventario, clientes y facturas.",
+      "highlights": ["PHP, Javascript, MySQL", "Proyecto Educativo"],
+      "url": "https://github.com/KingDanyDev/Facturacion-PHP"
     },
     {
-      "name": "AdventJS",
+      "name": "Gestión de eventos",
       "isActive": true,
-      "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
+      "description": "Sistema para el control y la gestión del reporte de horas dadas por los instructores del Sena.",
       "highlights": [
-        "+1 millón de visitas",
-        "Multidioma",
-        "JavaScript & TypeScript"
+        "NestJS, VueJS & MongoDB",
+        "Proyecto Educativo"
       ],
-      "url": "https://adventjs.dev"
+      "url": "https://github.com/KingDanyDev/disenno-y-desarrollo-de-sistemas-pruebas"
     },
     {
-      "name": "Codember",
+      "name": "Sistema de parqueadero con Python",
       "isActive": true,
-      "description": "Juego interactivo de programación con retos y secretos",
-      "highlights": ["+2000 usuarios activos", "Retos para cualquier lenguaje"],
-      "url": "https://codember.dev"
-    },
-    {
-      "name": "codi.link",
-      "isActive": true,
-      "description": "Playground de código HTML, CSS y JavaScript para compartir",
-      "highlights": ["100k visitas al mes", "Desarrollado por la comunidad"],
-      "url": "https://codi.link",
-      "github": "https://github.com/midudev/codi.link"
-    },
-    {
-      "name": "Pruebas Técnicas",
-      "isActive": true,
-      "description": "Lista de pruebas técnicas de empresas para practicar programación",
-      "highlights": ["100% gratuito", "+500 soluciones de la comunidad"],
-      "url": "https://pruebastecnicas.com",
-      "github": "https://github.com/midudev/pruebas-tecnicas"
-    },
-    {
-      "name": "miduConf",
-      "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
-      "highlights": ["+15k tickets repartidos", "+50k espectadores en directo"],
-      "url": "https://miduconf.com"
+      "description": "Software que tiene como objetivo gestionar y optimizar los procesos de un parqueadero con IA.",
+      "highlights": ["Python, SQL", "Modelo MVC", "Proyecto Educativo"],
+      "url": "https://github.com/KingDanyDev/parking-project.git"
     }
+    
+    
   ]
 }

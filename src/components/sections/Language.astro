@@ -1,35 +1,31 @@
 ---
 import Section from "../Section.astro";
 
-import { skills } from "@/cv.json"
+import { languages } from "@/cv.json"
 ---
-<div class="d1">
-<Section title="Skills">
 
-        <ul>
-        {
-        skills.map(({name})=>(
-        <li>
-            <span>{name}</span>
-        </li>
-        ))
-    }
-    </ul>
-</div>
-
+<Section title="Idiomas">
+    
+<ul>
+    {
+    languages.map(({language, fluency})=>(
+    <li>
+        <span>{language} - {fluency}</span>
+    </li>
+    ))
+}
+</ul>
 
 
 
 </Section>
 
  <style>
-.d1{
-    margin-top: 95px;
-}
  ul {
     display: inline-flex;
     gap: 8px;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
+    
 
  }
  li{
