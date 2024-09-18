@@ -241,6 +241,15 @@
       "description": "Software que tiene como objetivo gestionar y optimizar los procesos de un parqueadero con IA.",
       "highlights": ["Python, SQL", "Modelo MVC", "Proyecto Educativo"],
       "url": "https://github.com/KingDanyDev/parking-project.git"
+    },
+
+    {
+  
+      "name": "BPI Request tool",
+      "isActive": true,
+      "description": "Aplicación cuyo objetivo es administrar y gestionar de manera óptima los requerimientos asignados al equipo de Data Analysts",
+      "highlights": ["Power Apps", "Power Automate", "Sharepoint"],
+      "url": ""
     }
     
     
